@@ -1,1 +1,45 @@
 # 113403066i
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Circle and Rectangle</title>
+    <style>
+        .container {
+            position: relative;
+            width: 300px;
+            height: 220px;
+            margin-top: 20px;
+        }
+
+        .rectangle {
+            position: absolute;
+            width: 160px;
+            height: 160px;
+            background-color: blue;
+            border: 3px solid black;
+            left: 20px;
+            top: 20px;
+        }
+
+        .circle {
+            position: absolute;
+            width: 130px;
+            height: 130px;
+            background-color: yellow;
+            border: 5px solid red;
+            border-radius: 50%;
+            left: 110px;
+            top: 35px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="rectangle"></div>
+        <div class="circle"></div>
+    </div>
+
+</body>
+</html>
